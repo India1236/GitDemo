@@ -16,6 +16,8 @@ public class TestDemo {
 public void titleCheck() throws MalformedURLException
 {
 	
+	System.out.println("Hi this is change done 1");
+	System.out.println("Hi this is change done 2");
 	//WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.139:4444"), caps);
 	MutableCapabilities caps = new MutableCapabilities();
 	
